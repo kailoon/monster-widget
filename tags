@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Monster_Widget	monster-widget.php	/^class Monster_Widget extends WP_Widget {$/;"	c
+__construct	monster-widget.php	/^	public function __construct() {$/;"	f
+_instance	monster-widget.php	/^			$_instance = ( isset( $widget[1] ) ) ? $widget[1] : null;$/;"	v
+args	monster-widget.php	/^			$args = $wp_registered_sidebars[$id];$/;"	v
+as	monster-widget.php	/^	 * 0 - The name of the widget's class as registered with register_widget().$/;"	c
+attribute	monster-widget.php	/^	 * Get the html class attribute value for a given widget.$/;"	c
+available_widgets	monster-widget.php	/^		$available_widgets = array_keys( $wp_widget_factory->widgets );$/;"	v
+before_widget	monster-widget.php	/^			$before_widget = $args['before_widget'];$/;"	v
+counts	monster-widget.php	/^		$counts = wp_list_pluck( $menus, 'count' );$/;"	v
+get_nav_menu	monster-widget.php	/^	public static function get_nav_menu() {$/;"	f
+get_text	monster-widget.php	/^	public function get_text() {$/;"	f
+get_widget_class	monster-widget.php	/^	public function get_widget_class( $widget ) {$/;"	f
+get_widget_config	monster-widget.php	/^	public function get_widget_config() {$/;"	f
+html	monster-widget.php	/^		$html = array();$/;"	v
+html	monster-widget.php	/^		$html = implode( "\\n", $html );$/;"	v
+id	monster-widget.php	/^			$id = $args['id'];$/;"	v
+iterator	monster-widget.php	/^	static $iterator = 1;$/;"	v
+menu	monster-widget.php	/^		$menu = array_shift( $menus );$/;"	v
+menu	monster-widget.php	/^		if ( $menu = $this->get_nav_menu() ) {$/;"	v
+menus	monster-widget.php	/^		$menus = array_combine( $counts, $menus );$/;"	v
+menus	monster-widget.php	/^		$menus = array_reverse( $menus );$/;"	v
+menus	monster-widget.php	/^		$menus = array_values( $menus );$/;"	v
+menus	monster-widget.php	/^		$menus = wp_get_nav_menus();$/;"	v
+name	monster-widget.php	/^	 * @return string Dynamic class name a given widget.$/;"	c
+register_monster_widget	monster-widget.php	/^function register_monster_widget() {$/;"	f
+widget	monster-widget.php	/^	public function widget( $args, $instance ) {$/;"	f
+widget_obj	monster-widget.php	/^			$widget_obj = $wp_widget_factory->widgets[$widget];$/;"	v
+widget_obj	monster-widget.php	/^		$widget_obj = '';$/;"	v
+widgets	monster-widget.php	/^		$widgets = array($/;"	v
